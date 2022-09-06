@@ -101,7 +101,9 @@
         'select_task': select_task
       },
       success: function(result) {
+       
         show_data();
+        showDialogSuccess(result);
         $('#txt_fname').val("");
         $('#txt_lname').val("");
         $('#txt_email').val("");
